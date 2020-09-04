@@ -6,7 +6,7 @@ import array
 # PasswordGen function
 def passwordGen():
     # Open file and set datetime
-    file = open('.\password.txt', 'a')
+    file = open('./password.txt', 'a')
     d = datetime.datetime.now()
 
     # Create variable buckets
