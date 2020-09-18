@@ -10,9 +10,9 @@ def passwordGen():
     d = datetime.datetime.now()
 
     # Create variable buckets
-    letters = string.ascii_lowercase
-    caps = string.ascii_uppercase
-    digits = string.digits
+    letters = "abcdefghjkmnpqrstuvwxyz"
+    caps = "ABCDEFGHJKLMNPQRSTUVWXYZ"
+    digits = "23456789"
     special = "!@#$%&?+"
 
     # Create prefix and month
